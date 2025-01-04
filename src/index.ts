@@ -11,4 +11,6 @@ const server = app.listen(port, () => {
   console.log(`Server started at http://localhost:${port}`);
 });
 
+// const house = 1;
+
 export { app, server };
