@@ -21,7 +21,7 @@ export default [
   {
     languageOptions: {
       parser: tsParser,
-      ecmaVersion: 'latest',
+      ecmaVersion: '2020',
       sourceType: 'module',
     },
 
