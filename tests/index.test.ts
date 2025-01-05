@@ -1,5 +1,5 @@
 import { app, server } from '../src/index';
-import request from 'supertest'; // Require import to prevent type error with supertest
+const request = require('supertest'); // Require import to prevent type error with supertest
 
 describe('GET /', () => {
   // This block runs after all the tests in this describe block are complete
@@ -8,7 +8,7 @@ describe('GET /', () => {
   });
 
   // This is an individual test case
-  it('should return Hello, World!', async () => {
+  it('should return Hello, TypeScript with Express!', async () => {
     // Make a GET request to the root endpoint ('/') using Supertest
     const res = await request(app).get('/');
 
@@ -16,6 +16,6 @@ describe('GET /', () => {
     expect(res.statusCode).toEqual(200);
 
     // Assert that the response body contains the expected text
-    expect(res.text).toBe('Hello, World!');
+    expect(res.text).toBe('Hello, TypeScript with Express!');
   });
 });

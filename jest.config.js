@@ -4,9 +4,12 @@ module.exports = {
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
-    '.+\\.ts$': 'ts-jest',
+    '^.+\\.ts$': ['ts-jest', { tsconfig: 'tsconfig.jest.json' }],
   },
   moduleNameMapper: {
-    '@/(.*)': '<rootDir>/src/$1',
+    '^@middlewares/(.*)$': '<rootDir>/src/middlewares/$1',
+    '^@routes/(.*)$': '<rootDir>/src/routes/$1',
+    '^@libs/(.*)$': '<rootDir>/src/libs/$1',
   },
+  resolver: 'jest-ts-webcompat-resolver',
 };

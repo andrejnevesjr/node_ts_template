@@ -9,6 +9,7 @@
     "strict": true /* Enable all strict type-checking options. */,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "types": ["jest"],
     "paths": {
       "@middlewares/*": ["middlewares/*"], // Setting the alias for middlewares
       "@routes/*": ["routes/*"], // Setting the alias for routes
@@ -16,6 +17,6 @@
     },
     "baseUrl": "./src"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*", "tests/**/*"]
 }
