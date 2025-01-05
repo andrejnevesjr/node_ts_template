@@ -17,8 +17,7 @@ Repository with NodeJs + Typescript for general using including the the packages
 - [swagger](https://www.npmjs.com/package/swagger)
 - [winston](https://www.npmjs.com/package/winston)
 - [cors](https://www.npmjs.com/package/cors)
-- [nodemon](https://www.npmjs.com/package/nodemon)
-- [nodemon](https://www.npmjs.com/package/nodemon)
+- [ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
 
 ## Features
 
@@ -31,6 +30,7 @@ Repository with NodeJs + Typescript for general using including the the packages
 https://github.com/PaulAndCode/yt-typescript-express
 https://www.youtube.com/channel/UC7oNSRXjR0lQQS_RkzoGgTg (Paul and Code)
 https://www.youtube.com/watch?v=RO3l_xy7GeM&list=LL&index=4 (Felipe Rocha - Dicas para Devs)
+https://paulandcode.notion.site/Node-js-Express-with-Typescript-Setup-Part-3-Securing-Node-js-Apps-with-JWT-1749438c6ea742a280c197e036369ffd
 
 ---
 
