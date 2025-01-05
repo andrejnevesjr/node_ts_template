@@ -13,7 +13,7 @@ import authRouter from '@routes/authRouter';
 import protectedRouter from '@routes/protectedRouter';
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT_SERVER || 4500;
 
 // Add JSON middleware to parse incoming requests
 app.use(express.json());
