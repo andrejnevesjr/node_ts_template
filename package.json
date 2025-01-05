@@ -6,7 +6,9 @@
   "_moduleAliases": {
     "@middlewares": "dist/middlewares",
     "@routes": "dist/routes",
-    "@libs": "dist/libs"
+    "@libs": "dist/libs",
+    "@models": "dist/models",
+    "@utils": "dist/utils"
   },
   "scripts": {
     "test": "jest --passWithNoTests --coverage",
