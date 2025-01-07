@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import { app, server } from '../src/index';
 const request = require('supertest'); // Require import to prevent type error with supertest
 
@@ -8,7 +9,7 @@ describe('GET /', () => {
   });
 
   // This is an individual test case
-  it('should return Hello, TypeScript with Express!', async () => {
+  it('should return Check this out, TypeScript CRUD API with MongoDB!', async () => {
     // Make a GET request to the root endpoint ('/') using Supertest
     const res = await request(app).get('/');
 
@@ -16,6 +17,8 @@ describe('GET /', () => {
     expect(res.statusCode).toEqual(200);
 
     // Assert that the response body contains the expected text
-    expect(res.text).toBe('Hello, TypeScript with Express!');
+    expect(res.text).toBe('Check this out, TypeScript CRUD API with MongoDB!');
   });
 });
+
+afterAll(() => mongoose.connection.close());

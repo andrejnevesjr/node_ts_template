@@ -23,7 +23,9 @@ Repository with NodeJs + Typescript for general using including the the packages
 
 - Trigger for Eslint + Prettier + Jest on Git Commit
 - Jest Coverage
-- Small POC with JWT Token adding users in-memory (you can replace for a db and keep working)
+- Database Connection with Mongoose
+- Email password recovery with nodemailer
+- JWT + Cookie
 
 # References
 
@@ -31,6 +33,7 @@ https://github.com/PaulAndCode/yt-typescript-express
 https://www.youtube.com/channel/UC7oNSRXjR0lQQS_RkzoGgTg (Paul and Code)
 https://www.youtube.com/watch?v=RO3l_xy7GeM&list=LL&index=4 (Felipe Rocha - Dicas para Devs)
 https://paulandcode.notion.site/Node-js-Express-with-Typescript-Setup-Part-3-Securing-Node-js-Apps-with-JWT-1749438c6ea742a280c197e036369ffd
+https://www.youtube.com/watch?v=3-nz10akg5w (CODING ACADEMY)
 
 ---
 

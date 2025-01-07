@@ -12,7 +12,7 @@ const router = Router();
  *         description: Returns a welcome message
  */
 router.get('/', (req: Request, res: Response) => {
-  res.send('Hello, TypeScript with Express!');
+  res.send('Check this out, TypeScript CRUD API with MongoDB!');
 });
 
 export default router;

@@ -1,5 +1,6 @@
 import { Request, Response, Router } from 'express';
 import Logger from '@libs/logger';
+import { isAdmin, isAuthenticated } from '@middlewares/auth';
 
 const router = Router();
 
@@ -12,7 +13,7 @@ const router = Router();
  *       200:
  *         description: Returns a message confirming the logs
  */
-router.get('/', (req: Request, res: Response) => {
+router.get('/', isAuthenticated, isAdmin, (req: Request, res: Response) => {
   Logger.error('This is an error log');
   Logger.warn('This is a warn log');
   Logger.info('This is a info log');

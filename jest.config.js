@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
   preset: 'ts-jest',
@@ -11,6 +12,7 @@ module.exports = {
     '^@libs/(.*)$': '<rootDir>/src/libs/$1',
     '^@models/(.*)$': '<rootDir>/src/models/$1',
     '^@utils/(.*)$': '<rootDir>/src/utils/$1',
+    '^@controllers/(.*)$': '<rootDir>/src/controllers/$1',
   },
   resolver: 'jest-ts-webcompat-resolver',
 };

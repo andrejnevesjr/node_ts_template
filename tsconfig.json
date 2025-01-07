@@ -20,7 +20,8 @@
       "@routes/*": ["routes/*"], // Example path alias for routes
       "@libs/*": ["libs/*"], // Example path alias for libs
       "@models/*": ["models/*"], // Example path alias for models
-      "@utils/*": ["utils/*"] // Example path alias for utils
+      "@utils/*": ["utils/*"], // Example path alias for utils
+      "@controllers/*": ["controllers/*"] // Example path alias for utils
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,
 
     /* Emit */
