@@ -27,7 +27,7 @@ app.set('trust proxy', 1); // trust first proxy
 connectToDatabase();
 
 // Set the application Port
-const port = parseInt(process.env.PORT_SERVER as string) || 3500;
+const port = parseInt(process.env.PORT_API_SERVER as string) || 3500;
 
 // MIDLEWARES
 // Add JSON middleware to parse incoming requests
